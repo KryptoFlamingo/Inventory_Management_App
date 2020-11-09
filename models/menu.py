@@ -1,7 +1,8 @@
 class Menu:
 
-    def __init__( self, meal_name, id = None ):
-        self.meal_name = meal_name
+    def __init__( self, meal_beef = False, meal_pasta = True, id = None ):
+        self.meal_beef = meal_beef
+        self.meal_pasta = []
         self.id = id
 
 
