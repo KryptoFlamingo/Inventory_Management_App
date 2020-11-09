@@ -1,0 +1,30 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<h1>Manager App</h1>
+
+<p>Track your stock inventory</p>
+
+<ul id="manager_form">
+<form action="/manager" method="POST">
+    <div>
+        <label for="beef_meal">Beef Meal</label>
+        <input type="text" id="beef_meal">
+        <input type="submit" value="Update">
+    </div>
+    <div>
+        <label for="chicken_meal">Chicken Meal</label>
+        <input type="text" id="chicken_meal">
+        <input type="submit" value="Update">
+    </div>
+    <div>
+        <label for="fish_meal">Fish Meal</label>
+        <input type="text" id="fish_meal">
+        <input type="submit" value="Update">
+    </div>
+</form>
+</ul>
+
+
+</form>
+{% endblock %}

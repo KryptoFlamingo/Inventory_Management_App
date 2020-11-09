@@ -39,7 +39,14 @@ body{
     color: blue;
 }
 
-#content {
-    margin-top: 100px;
+#content{
+    margin-top: 80px;
     text-align: center;
+}
+
+#manager_form{
+    margin-top: 50px;
+    column-gap: 10px;
+    columns: 100px 3;
+    display: inline-block;
 }
