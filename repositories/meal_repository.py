@@ -13,7 +13,7 @@ def select_all():
     results = run_sql(sql)
     meals = []
     for dictionary in results:
-        meal = Meal(dictionary['name'], dictionary['cost_price'], dictionary['selling_price'], dictionary['qty_available'], dictionary['qty_sold'], dictionary['id'])
+        meal = Meal(dictionary['name'], dictionary['description'], dictionary['cost_price'], dictionary['selling_price'], dictionary['qty_available'], dictionary['qty_sold'], dictionary['id'])
         meals.append(meal)
     return meals
 #  copied and editted from books example; dont know how to fix 

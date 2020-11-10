@@ -4,23 +4,24 @@
 <h1>Manager App</h1>
 
 <p>Track your stock inventory</p>
+<p>Enter how many of each dish is available in stock</p>
 
 <ul id="manager_form">
 <form action="/manager" method="POST">
     <div>
         <label for="beef_meal">Beef Meal</label><br><br>
-        <input type="text" value="enter stock qty" name="beef_meal" id="beef_meal"><br><br>
-        <input type="submit" value="Update">
+        <input type="number" value="enter stock qty" name="beef_meal" id="beef_meal"><br><br>
+        <input type="submit" value="Update" id = "update_button">
     </div>
     <div>
         <label for="chicken_meal">Chicken Meal</label><br><br>
-        <input type="text" value="enter stock qty" name="chicken_meal" id="chicken_meal"><br><br>
-        <input type="submit" value="Update">
+        <input type="number" value="enter stock qty" name="chicken_meal" id="chicken_meal"><br><br>
+        <input type="submit" value="Update" id = "update_button">
     </div>
     <div>
         <label for="fish_meal">Fish Meal</label><br><br>
-        <input type="text" value="enter stock qty" name="fish_meal" id="fish_meal"><br><br>
-        <input type="submit" value="Update">
+        <input type="number" value="enter stock qty" name="fish_meal" id="fish_meal"><br><br>
+        <input type="submit" value="Update" id = "update_button">
     </div>
 </form>
 </ul>

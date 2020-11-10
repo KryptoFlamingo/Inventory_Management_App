@@ -40,7 +40,7 @@ body{
 }
 
 #content{
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -49,4 +49,14 @@ body{
     column-gap: 10px;
     columns: 100px 3;
     display: inline-block;
+}
+
+#order_button{
+    background-color: #e03838;
+    color: white;
+}
+
+#update_button{
+    background-color: rgb(78, 121, 240);
+    color: white;
 }

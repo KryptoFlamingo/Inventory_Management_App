@@ -3,13 +3,16 @@
 {% block content %}
 <h1>All Meals</h1>
 
-<p>Lists all the meals in the meal table database</p>
-
+<!-- <p>Lists all the meals in the meal table database</p> -->
+<p>Select how many of each dish you would like, then press 'Order'</p>
+<br>
 <div>
-    <label for="all_meals">All Meals:</label>
+    <label for="all_meals"></label>
         {% for meal in meals %}
-        <option value="{{ meal.id }}" {% if meal.id == meal.id %} selected="selected"{% endif %}></option>
+        <option value="{{ meal.id }}" {% if meal.id == meal.id %} selected="selected"{% endif %}>{{ meal.description }}</option>
+        <input type="number"><br><br>
         {% endfor %}
+        <input type="submit" value="Order" id = "order_button">
     </select>
 </div>
 
