@@ -1,4 +1,4 @@
-from models.menu import Menu
+from models.meal import Meal
 from flask import Flask, render_template
 import flask
 
@@ -15,7 +15,7 @@ if __name__ == '__main__':
 @app.route('/manager', methods=['POST', 'GET'])
 def manager():
     if flask.request.method == 'POST':
-        stock = Menu()
+        stock = Meal()
         stock.meal_beef = flask.request.form
         # stock.meal_fish = flask.request.form['fish_meal']
         stock.meal_chicken = flask.request.form

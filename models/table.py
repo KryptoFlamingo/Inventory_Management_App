@@ -1,9 +1,11 @@
-from models.customer import Customer
+# from models.customer import Customer
 
 
-class Table:
+# class Table:
 
-    def __init__(self, table_number, Customers = [], id = None):
-      self.table_number = table_number
-      self.Customers = Customers
-      self.id = id
+#     def __init__(self, table_number, Customers = [], id = None):
+#       self.table_number = table_number
+#       self.Customers = Customers
+#       self.id = id
+
+# # decided to ignore this class completely for now; may make obsolete
