@@ -8,8 +8,7 @@ CREATE TABLE meals (
   cost_price int,
   selling_price int,
   qty_available int,
-  qty_sold int,
-  ingredients VARCHAR(255)
+  qty_sold int
   -- Lookup Wizard to create a drop down list of ingredients?
   -- supplier_id INT REFERENCES supplier(id)
   -- not sure how to reference supplier id when table only pulls ingredient id?

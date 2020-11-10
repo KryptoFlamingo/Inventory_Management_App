@@ -22,12 +22,11 @@ def select_all():
 
 
 def save(meal):
-    sql = "INSERT INTO meals (name, id) VALUES (%s, %s) RETURNING * "
-    values = [meal.name, meal.id]
+    sql = "INSERT INTO meals (name, description, cost_price, selling_price, qty_available, qty_sold) VALUES (%s, %s, %s, %s, %s, %s) RETURNING * "
+    values = [meal.name, meal.description, meal.cost_price, meal.selling_price, meal.qty_available, meal.qty_sold]
     results= run_sql(sql, values)
-    # id = results[0]['id']
-    # meal.id = id
-    # not sure what above means or how to use
+    id = results[0]['id']
+    meal.id = id
     return meal
 
 def delete_all():
