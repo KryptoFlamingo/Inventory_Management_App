@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<h1>All Meals</h1>
+
+<p>Lists all the meals in the meal table database</p>
+
+<div>
+    <label for="all_meals">All Meals:</label>
+        {% for meal in meals %}
+        <option value="{{ meal.id }}" {% if meal.id == meal.id %} selected="selected"{% endif %}></option>
+        {% endfor %}
+    </select>
+</div>
+
+{% endblock %}

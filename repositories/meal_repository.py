@@ -2,22 +2,20 @@ from db.run_sql import run_sql
 
 from models.meal import Meal
 
-meals = []
+
 # had issue getting meals to be seen, 
 # moved out of def so its not a scope issue
 # should I be referencing stock from app.py?
 
 def select_all():
 
-
     sql = 'SELECT * FROM meals'
     results = run_sql(sql)
-
-#     for dictionary in results:
-#         meal = meal_repository.select(dictionary['id'])
-#         meal = Meal(dictionary['name'], dictionary['id'])
-#         meals.append(meal)
-#     return meals
+    meals = []
+    for dictionary in results:
+        meal = Meal(dictionary['name'], dictionary['cost_price'], dictionary['selling_price'], dictionary['qty_available'], dictionary['qty_sold'], dictionary['id'])
+        meals.append(meal)
+    return meals
 #  copied and editted from books example; dont know how to fix 
 
 
