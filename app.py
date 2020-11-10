@@ -20,3 +20,8 @@ def manager():
         # stock.meal_fish = flask.request.form['fish_meal']
         stock.meal_chicken = flask.request.form
     return render_template('manager.html')
+
+
+@app.route('/new_table', methods=['POST', 'GET'])
+def new_table():
+    return render_template('new_table.html')
