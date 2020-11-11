@@ -39,6 +39,23 @@ def update_meal(id):
     return redirect('/manager')
 
 
+### NEW
+@manager_blueprint.route("/manager/new_meal", methods=['POST', 'GET'])
+def new_meal():
+    if request.method == 'GET':
+        return render_template('/manager/new_meal.html')
+
+    if request.method == 'POST':   
+        name = request.form['name']
+        description = request.form['description']
+        cost_price = request.form['cost_price']
+        selling_price = request.form['selling_price']
+        qty_available = request.form['qty_available']
+        qty_sold = request.form['qty_sold']
+        meal = Meal(name, description, cost_price, selling_price, qty_available, qty_sold)
+        print(meal)
+        meal_repository.save(meal)
+        return redirect('/manager')
 
 # # # DELETE                                            
 # # DELETE '/meals/<id>'

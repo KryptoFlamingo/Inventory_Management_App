@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form action="/manager/new_meal" method="POST">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <br>
+  <div>
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description" required autofocus>
+  </div>
+  <br>
+  <div>
+    <label for="cost_price">Cost Price:</label>
+    <input type="number" id="cost_price" name="cost_price" required autofocus>
+  </div>
+  <br>
+  <div>
+    <label for="selling_price">Selling Price:</label>
+    <input type="number" id="selling_price" name="selling_price" required autofocus>
+  </div>
+  <br>
+  <div>
+    <label for="qty_available">Qty Available:</label>
+    <input type="number" id="qty_available" name="qty_available" required autofocus>
+  </div>
+  <br>
+  <div>
+    <label for="qty_sold">Qty Sold:</label>
+    <input type="number" id="qty_sold" name="qty_sold" required autofocus>
+  </div>
+<br>
+  <button type="submit" >Add New Meal</button>
+</form>
+
+{% endblock %}

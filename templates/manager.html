@@ -20,12 +20,12 @@
     </thead>
     <tbody>
     {% for meal in meals %}
-    <tr><td>{{meal.description}}</td>
+    <tr><td bgcolor='lightgrey'>{{meal.description}}</td>
         <td>{{meal.cost_price}}</td>
         <td>{{meal.selling_price}}</td>
         <td>{{meal.qty_available}}</td>
         <td>{{meal.qty_sold}}</td>
-        <td bgcolor='lightblue'><a href="/manager/{{meal.id}}/edit" id=edit_link >Edit</a></td>
+        <td bgcolor='lightseagreen'><a href="/manager/{{meal.id}}/edit" class="edit_link" >Edit</a></td>
 
         {% if meal.qty_available == 2 %}
             <td bgcolor='yellow'>LOW STOCK</td>
@@ -41,23 +41,6 @@
 </table>
 </div>
 </form>
+<br>
+<a href="/manager/new_meal"><button type="submit" id="add_new_meal_button">Add New Meal</button></a>
 {% endblock %}
-
-
-<!-- <form action="/manager" method="POST">
-    <div>
-        <label for="beef_meal">Beef Meal</label><br><br>
-        <input type="number" value="enter stock qty" name="beef_meal" id="beef_meal"><br><br>
-        <input type="submit" value="Update" id = "update_button">
-    </div>
-    <div>
-        <label for="chicken_meal">Chicken Meal</label><br><br>
-        <input type="number" value="enter stock qty" name="chicken_meal" id="chicken_meal"><br><br>
-        <input type="submit" value="Update" id = "update_button">
-    </div>
-    <div>
-        <label for="fish_meal">Fish Meal</label><br><br>
-        <input type="number" value="enter stock qty" name="fish_meal" id="fish_meal"><br><br>
-        <input type="submit" value="Update" id = "update_button">
-    </div>
-</form> -->
