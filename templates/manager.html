@@ -20,11 +20,11 @@
     </thead>
     <tbody>
     <tr>{% for meal in meals %}
-    <td>{{meal.description}}</td>
-    <td>{{meal.cost_price}}</td>
-    <td>{{meal.selling_price}}</td>
-    <td>{{meal.qty_available}}</td>
-    <td>{{meal.qty_sold}}</td>
+    <td contenteditable="True">{{meal.description}}</td>
+    <td contenteditable="True">{{meal.cost_price}}</td>
+    <td contenteditable="True">{{meal.selling_price}}</td>
+    <td contenteditable="True">{{meal.qty_available}}</td>
+    <td contenteditable="True">{{meal.qty_sold}}</td>
     </tbody> 
     </tr>
     {% endfor %}
