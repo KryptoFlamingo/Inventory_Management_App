@@ -65,6 +65,13 @@ body > header{
     margin: 0 auto;
 }
 
+#server_form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
 #order_button{
     background-color: #e03838;
     color: white;
@@ -85,4 +92,11 @@ body > header{
     background-color: green;
     color: white;
     padding: 8px;
+}
+
+#new_order_button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
 }

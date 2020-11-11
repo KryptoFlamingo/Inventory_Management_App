@@ -5,6 +5,41 @@
 
 <p>All customer orders</p>
 
-  
+
+<form action="/meals" method="POST">
+    <div>
+    <ul id="manager_form">
+    <table>
+        <thead>
+        <tr>
+            <th>Meal</th>
+            <th>Meal Cost</th>
+            <th>Meal Price</th>
+            <th>Qty Available</th>
+            <th>Qty Sold</th>
+        </thead>
+        <tbody>
+        {% for meal in meals %}
+        <tr><td bgcolor='lightgrey'>{{meal.description}}</td>
+            <td>{{meal.cost_price}}</td>
+            <td>{{meal.selling_price}}</td>
+            <td>{{meal.qty_available}}</td>
+            <td>{{meal.qty_sold}}</td>
+            <td bgcolor='lightseagreen'><a href="/manager/{{meal.id}}/edit" class="edit_link" >Edit</a></td>
+    
+            {% if meal.qty_available == 2 %}
+                <td bgcolor='yellow'>LOW STOCK</td>
+            {% elif meal.qty_available == 1 %}
+                <td bgcolor='orange'>LAST ONE</td>
+            {% elif meal.qty_available == 0 %}
+                <td bgcolor='red'>OUT OF STOCK</td>
+            {% endif %}
+        </tr>
+            {% endfor %}
+        </tbody> 
+    </ul>
+    </table>
+    </div>
+    </form>
 
 {% endblock %}
