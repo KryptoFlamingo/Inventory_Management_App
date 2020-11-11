@@ -7,25 +7,19 @@ manager_blueprint = Blueprint("manager", __name__)
 
 
 # one below puts meals.sql table in memory for page                      OK
-@manager_blueprint.route('/manager', methods=['POST', 'GET'])
-def manager():
-    meals = meal_repository.select_all()
-    return render_template('manager.html')
-
-
 # READ
-@manager_blueprint.route("/manager", methods=['GET'])
+@manager_blueprint.route('/manager', methods=['POST', 'GET'])
 def show_meals():
-    meals = meal_repository.select()
-    return render_template('manager.html')
+    meals = meal_repository.select_all()
+    return render_template('manager.html', meals = meals)
+
 
 # # # EDIT
-# # # GET '/books/<id>/edit'
-# # @books_blueprint.route("/books/<id>/edit", methods=['GET'])
-# # def edit_book(id):
-# #     book = book_repository.select(id)
-# #     authors = author_repository.select_all()
-# #     return render_template('books/edit.html', book = book, all_authors = authors)
+# # # GET '/manager/<id>/edit'
+@manager_blueprint.route("/manager/", methods=['GET'])
+def edit_meal(id):
+    meal = meal_repository.select(id)
+    return render_template('manager.html', meal = meal, all_meals = meals)
 
 # # # UPDATE
 # # # PUT '/books/<id>'

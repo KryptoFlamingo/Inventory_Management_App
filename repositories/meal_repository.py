@@ -18,7 +18,6 @@ def select_all():
     return meals
 #  copied and editted from books example; dont know how to fix 
 
-
 def save(meal):
     sql = "INSERT INTO meals (name, description, cost_price, selling_price, qty_available, qty_sold) VALUES (%s, %s, %s, %s, %s, %s) RETURNING * "
     values = [meal.name, meal.description, meal.cost_price, meal.selling_price, meal.qty_available, meal.qty_sold]

@@ -8,21 +8,34 @@
 
 <form>
 <div>
-    <!-- thought maybe it was a capital to call the class below; doesnt work -->
-    <p>{{meal.name}}</p>
-    <hr>
-    <p>{{meal.description}}</p>
-    <p>{{meal.cost_price}}</p>
-    <p>{{meal.selling_price}}</p>
-    <p>{{meal.qty_available}}</p>
-    <p>{{meal.qty_sold}}</p>
-    <p>{{meal.id}}</p>
-  </div>
+<ul id="manager_form">
+<table>
+    <thead>
+    <tr>
+        <th>Meal</th>
+        <th>Meal Cost</th>
+        <th>Meal Price</th>
+        <th>Qty Available</th>
+        <th>Qty Sold</th>
+    </thead>
+    <tbody>
+    <tr>{% for meal in meals %}
+    <td>{{meal.description}}</td>
+    <td>{{meal.cost_price}}</td>
+    <td>{{meal.selling_price}}</td>
+    <td>{{meal.qty_available}}</td>
+    <td>{{meal.qty_sold}}</td>
+    </tbody> 
+    </tr>
+    {% endfor %}
+</ul>
+</table>
+</div>
 </form>
 {% endblock %}
 
-<!-- <ul id="manager_form">
-<form action="/manager" method="POST">
+
+<!-- <form action="/manager" method="POST">
     <div>
         <label for="beef_meal">Beef Meal</label><br><br>
         <input type="number" value="enter stock qty" name="beef_meal" id="beef_meal"><br><br>
@@ -38,6 +51,4 @@
         <input type="number" value="enter stock qty" name="fish_meal" id="fish_meal"><br><br>
         <input type="submit" value="Update" id = "update_button">
     </div>
-</form>
-</ul>
 </form> -->
