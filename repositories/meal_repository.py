@@ -47,7 +47,7 @@ def delete(id):
 
 
 def update(meal):
-    sql = "UPDATE meals SET (name, description, cost_price, selling_price, qty_available, qty_sold, id) = (%s, %s, %s, %s, %s, %s, %s) WHERE id = %s"
+    sql = "UPDATE meals SET (name, description, cost_price, selling_price, qty_available, qty_sold) = (%s, %s, %s, %s, %s, %s) WHERE id = %s"
     values = [meal.name, meal.description, meal.cost_price, meal.selling_price, meal.qty_available, meal.qty_sold, meal.id]
     print(values)
     run_sql(sql, values)

@@ -24,15 +24,16 @@ def edit_meal(id):
 
 
 ### UPDATE
-@manager_blueprint.route("/manager/edit", methods=['POST'])
+@manager_blueprint.route("/manager/<id>", methods=['POST'])
 def update_meal(id):
+    print(request.form)
+    name = request.form['name']
     description = request.form['description']
     cost_price = request.form['cost_price']
     selling_price = request.form['selling_price']
     qty_available = request.form['qty_available']
     qty_sold = request.form['qty_sold']
-    meal  = meal_repository.select(request.form['meal_id'])
-    meal = Meal(description, cost_price, selling_price, qty_available, qty_sold)
+    meal = Meal(name, description, cost_price, selling_price, qty_available, qty_sold, id)
     print(meal)
     meal_repository.update(meal)
     return redirect('/manager')

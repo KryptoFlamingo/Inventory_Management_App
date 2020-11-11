@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
   }
 
-  body > header{
+body > header{
     background-color: #212324;
     padding: 10px;
 }
@@ -34,6 +34,11 @@ body{
     color: white;
 }
 
+#edit_link > a, a:visited{
+    color: black
+    text-decoration: none;
+}
+
 #menu > li > a:hover{
     text-decoration: none;
     color: blue;
@@ -52,8 +57,12 @@ body{
 }
 
 #manager_form{
+    display: flex;
     justify-content: center;
-    table-layout: auto;
+    /* table-layout: auto; */
+    text-align: center;
+    /* align-content: center; */
+    margin: 0 auto;
 }
 
 #order_button{
@@ -70,4 +79,5 @@ body{
 #edit_form{
     justify-content: center;
     align-content: center;
+    text-align: center;
 }

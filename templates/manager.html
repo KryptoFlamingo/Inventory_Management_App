@@ -19,27 +19,28 @@
         <th>Qty Sold</th>
     </thead>
     <tbody>
-    <tr>{% for meal in meals %}
-    <td>{{meal.description}}</td>
-    <td>{{meal.cost_price}}</td>
-    <td>{{meal.selling_price}}</td>
-    <td>{{meal.qty_available}}</td>
-    <td>{{meal.qty_sold}}</td>
+    {% for meal in meals %}
+    <tr><td>{{meal.description}}</td>
+        <td>{{meal.cost_price}}</td>
+        <td>{{meal.selling_price}}</td>
+        <td>{{meal.qty_available}}</td>
+        <td>{{meal.qty_sold}}</td>
+        <td bgcolor='lightblue'><a href="/manager/{{meal.id}}/edit" id=edit_link >Edit</a></td>
+
         {% if meal.qty_available == 2 %}
-            <td>LOW STOCK</td>
+            <td bgcolor='yellow'>LOW STOCK</td>
         {% elif meal.qty_available == 1 %}
-            <td>LAST ONE</td>
+            <td bgcolor='orange'>LAST ONE</td>
         {% elif meal.qty_available == 0 %}
-            <td>OUT OF STOCK</td>
+            <td bgcolor='red'>OUT OF STOCK</td>
         {% endif %}
-    </tbody> 
     </tr>
         {% endfor %}
+    </tbody> 
 </ul>
 </table>
 </div>
 </form>
-<input type="submit" value="Edit" id="edit_button">
 {% endblock %}
 
 
