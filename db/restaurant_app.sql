@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS meals;
+DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS ingredients;
 
 CREATE TABLE meals (
@@ -13,6 +14,16 @@ CREATE TABLE meals (
   -- supplier_id INT REFERENCES supplier(id)
   -- not sure how to reference supplier id when table only pulls ingredient id?
 );
+
+
+CREATE TABLE orders (
+  id SERIAL PRIMARY KEY,
+  order_number INT,
+  order_raised datetime DEFAULT CURRENT_TIMESTAMP,
+  meals_id INT REFERENCES meals(id),
+  order_qty INT
+);
+
 
 CREATE TABLE ingredients (
   id SERIAL PRIMARY KEY,
