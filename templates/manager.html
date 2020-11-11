@@ -6,7 +6,7 @@
 <p>Track your stock inventory</p>
 <p>Enter how many of each dish is available in stock</p>
 
-<form>
+<form action="/manager" method="POST">
 <div>
 <ul id="manager_form">
 <table>
@@ -20,14 +20,15 @@
     </thead>
     <tbody>
     <tr>{% for meal in meals %}
-    <td contenteditable="True">{{meal.description}}</td>
-    <td contenteditable="True">{{meal.cost_price}}</td>
-    <td contenteditable="True">{{meal.selling_price}}</td>
-    <td contenteditable="True">{{meal.qty_available}}</td>
-    <td contenteditable="True">{{meal.qty_sold}}</td>
+    <td>{{meal.description}}</td>
+    <td>{{meal.cost_price}}</td>
+    <td>{{meal.selling_price}}</td>
+    <td>{{meal.qty_available}}</td>
+    <td>{{meal.qty_sold}}</td>
     </tbody> 
     </tr>
     {% endfor %}
+    <input type="submit" value="Update" id = "update_button">
 </ul>
 </table>
 </div>

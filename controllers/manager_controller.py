@@ -1,3 +1,4 @@
+import re
 from flask import Flask, render_template, request, redirect, Blueprint
 from repositories import meal_repository
 from models.meal import Meal

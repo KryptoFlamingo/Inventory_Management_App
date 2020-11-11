@@ -44,31 +44,12 @@ body{
     text-align: center;
 }
 
-#manager_form > table, th, td {
+#manager_form > th, td {
     border: 2px solid black;
     display: inline table;
     padding: 5px;
-    justify-content: center;
-  }
-
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: gray;
-    justify-content: center;
-}
-
-thead {
-    display: table-header-group;
     vertical-align: middle;
-    border-color: inherit
-}
-
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit
+    justify-content: center;
 }
 
 #order_button{
@@ -79,4 +60,5 @@ tbody {
 #update_button{
     background-color: rgb(78, 121, 240);
     color: white;
+    justify-content: center;
 }
