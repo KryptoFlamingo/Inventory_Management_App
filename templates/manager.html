@@ -6,7 +6,22 @@
 <p>Track your stock inventory</p>
 <p>Enter how many of each dish is available in stock</p>
 
-<ul id="manager_form">
+<form>
+<div>
+    <!-- thought maybe it was a capital to call the class below; doesnt work -->
+    <p>{{meal.name}}</p>
+    <hr>
+    <p>{{meal.description}}</p>
+    <p>{{meal.cost_price}}</p>
+    <p>{{meal.selling_price}}</p>
+    <p>{{meal.qty_available}}</p>
+    <p>{{meal.qty_sold}}</p>
+    <p>{{meal.id}}</p>
+  </div>
+</form>
+{% endblock %}
+
+<!-- <ul id="manager_form">
 <form action="/manager" method="POST">
     <div>
         <label for="beef_meal">Beef Meal</label><br><br>
@@ -25,18 +40,4 @@
     </div>
 </form>
 </ul>
-
-
-</form>
-{% endblock %}
-
-
-<!-- <form name="game_choices" id="game_choices">
-    <label for="ROCK">ROCK</label>
-    <input type="radio" value="Rock" id="ROCK" name="choice"><br><br>
-    <label for="PAPER">PAPER</label>
-    <input type="radio" value="Paper" id="PAPER" name="choice"><br><br>
-    <label for="SCISSORS">SCISSORS</label>
-    <input type="radio" value="Scissors" id="Scissors" name="choice"><br><br>
-    <input type="submit" value="Submit">
-  </form> -->
+</form> -->

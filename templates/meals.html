@@ -7,13 +7,14 @@
 <p>Select how many of each dish you would like, then press 'Order'</p>
 <br>
 <div>
-    <label for="all_meals"></label>
+    <form action="/meals/new_order" name="all_meals" method="POST">
         {% for meal in meals %}
-        <option value="{{ meal.id }}" {% if meal.id == meal.id %} selected="selected"{% endif %}>{{ meal.description }}</option>
-        <input type="number"><br><br>
+        <option name="order" value="{{ meal.id }}" {% if meal.id == meal.id %} selected="selected"{% endif %}>{{ meal.description }}</option>
+        <input name="qty" type="number"><br><br>
         {% endfor %}
-        <input type="submit" value="Order" id = "order_button">
+        <input type="submit" value="Order" id="order_button">
     </select>
+</form>
 </div>
 
 {% endblock %}
