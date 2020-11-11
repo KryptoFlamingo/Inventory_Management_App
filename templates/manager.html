@@ -26,7 +26,6 @@
         <td>{{meal.qty_available}}</td>
         <td>{{meal.qty_sold}}</td>
         <td bgcolor='lightseagreen'><a href="/manager/{{meal.id}}/edit" class="edit_link" >Edit</a></td>
-
         {% if meal.qty_available == 2 %}
             <td bgcolor='yellow'>LOW STOCK</td>
         {% elif meal.qty_available == 1 %}

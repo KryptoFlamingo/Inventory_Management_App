@@ -19,6 +19,7 @@
         </thead>
         <tbody>
         {% for meal in meals %}
+        {% if meal.qty_available >0 %}
         <tr><td bgcolor='lightgrey'>{{meal.description}}</td>
             <td>{{meal.selling_price}}</td>
             <td>{{meal.qty_available}}</td>
@@ -29,6 +30,7 @@
             {% elif meal.qty_available == 0 %}
                 <td bgcolor='red'>OUT OF STOCK</td>
             {% endif %}
+        {% endif %}
         </tr>
             {% endfor %}
         </tbody> 
