@@ -25,14 +25,21 @@
     <td>{{meal.selling_price}}</td>
     <td>{{meal.qty_available}}</td>
     <td>{{meal.qty_sold}}</td>
+        {% if meal.qty_available == 2 %}
+            <td>LOW STOCK</td>
+        {% elif meal.qty_available == 1 %}
+            <td>LAST ONE</td>
+        {% elif meal.qty_available == 0 %}
+            <td>OUT OF STOCK</td>
+        {% endif %}
     </tbody> 
     </tr>
-    {% endfor %}
-    <input type="submit" value="Update" id = "update_button">
+        {% endfor %}
 </ul>
 </table>
 </div>
 </form>
+<input type="submit" value="Edit" id="edit_button">
 {% endblock %}
 
 

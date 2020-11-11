@@ -17,23 +17,25 @@ def show_meals():
 
 # EDIT
 # GET '/manager/<id>/edit'
-@manager_blueprint.route("/manager/<id>/edit", methods=['GET'])
+@manager_blueprint.route("/manager/<id>/edit", methods=['POST', 'GET'])
 def edit_meal(id):
     meal = meal_repository.select(id)
-    return render_template('manager/edit.html', meals = meals)
+    return render_template('/manager/edit.html', meal = meal)
 
-# UPDATE
-# PUT '/books/<id>'
-# @manager_blueprint.route("/manage/<id>", methods=['POST'])
-# def update_meal(id):
-#     name    = request.form['title']
-#     genre = request.form['genre']
-#     publisher   = request.form['publisher']
-#     author  = author_repository.select(request.form['author_id'])
-#     book = Book(title, genre, publisher, author, id)
-#     print(book.author.full_name())
-#     book_repository.update(book)
-    # return redirect('/books')
+
+### UPDATE
+@manager_blueprint.route("/manager/edit", methods=['POST'])
+def update_meal(id):
+    description = request.form['description']
+    cost_price = request.form['cost_price']
+    selling_price = request.form['selling_price']
+    qty_available = request.form['qty_available']
+    qty_sold = request.form['qty_sold']
+    meal  = meal_repository.select(request.form['meal_id'])
+    meal = Meal(description, cost_price, selling_price, qty_available, qty_sold)
+    print(meal)
+    meal_repository.update(meal)
+    return redirect('/manager')
 
 
 

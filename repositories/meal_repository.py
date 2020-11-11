@@ -22,10 +22,10 @@ def select(id):
     meal = None
     sql = "SELECT * FROM meals WHERE id = %s"
     values = [id]
-    result = run_sql(sql, values)[0]
+    meal_dictionary = run_sql(sql, values)[0]
 
-    if result is not None:
-        meal = Meal(dictionary['name'], dictionary['description'], dictionary['cost_price'], dictionary['selling_price'], dictionary['qty_available'], dictionary['qty_sold'], dictionary['id'])
+    if meal_dictionary is not None:
+        meal = Meal(meal_dictionary['name'], meal_dictionary['description'], meal_dictionary['cost_price'], meal_dictionary['selling_price'], meal_dictionary['qty_available'], meal_dictionary['qty_sold'], meal_dictionary['id'])
     return meal
 
 def save(meal):
@@ -44,3 +44,10 @@ def delete(id):
     sql = "DELETE FROM meals WHERE id = %s"
     values = [id]
     run_sql(sql,values)
+
+
+def update(meal):
+    sql = "UPDATE meals SET (name, description, cost_price, selling_price, qty_available, qty_sold, id) = (%s, %s, %s, %s, %s, %s, %s) WHERE id = %s"
+    values = [meal.name, meal.description, meal.cost_price, meal.selling_price, meal.qty_available, meal.qty_sold, meal.id]
+    print(values)
+    run_sql(sql, values)

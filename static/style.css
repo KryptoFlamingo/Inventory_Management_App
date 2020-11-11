@@ -48,8 +48,12 @@ body{
     border: 2px solid black;
     display: inline table;
     padding: 5px;
-    vertical-align: middle;
+    vertical-align: middle
+}
+
+#manager_form{
     justify-content: center;
+    table-layout: auto;
 }
 
 #order_button{
@@ -57,8 +61,13 @@ body{
     color: white;
 }
 
-#update_button{
+#edit_button{
     background-color: rgb(78, 121, 240);
     color: white;
     justify-content: center;
+}
+
+#edit_form{
+    justify-content: center;
+    align-content: center;
 }
