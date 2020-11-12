@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T00:29:32.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="EndD0qwk4dvP34Cs0P7l" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T00:32:31.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="DZxQXmX7wGRmXKYMG2z7" version="13.9.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="991" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -48,6 +48,12 @@
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-1" value="VIEW SAVED &lt;br&gt;MENU ITEMS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="275" y="330" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-5" target="-RGO8fO24sxqpMGSyuH2-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-5" target="-RGO8fO24sxqpMGSyuH2-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-5" value="ADD NEW&amp;nbsp;&lt;br&gt;MENU ITEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="70" y="383" width="90" height="37" as="geometry" />
@@ -149,6 +155,29 @@
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-48" value="DISABLE ORDER CAPABILITY WHEN DEACTIVATED" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="150" y="530" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-50" target="-RGO8fO24sxqpMGSyuH2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-50" value="SAVE TO MEAL DATABASE INVENTORY" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="463" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-52" target="-RGO8fO24sxqpMGSyuH2-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-52" value="SET MEAL ATTRIBUTES" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="540" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-55" target="-RGO8fO24sxqpMGSyuH2-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="630" />
+              <mxPoint x="230" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-55" value="ENABLE&amp;nbsp; MEAL ORDER CAPABILITY" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="625" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
