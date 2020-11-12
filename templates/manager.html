@@ -14,7 +14,7 @@
     <tr>
         <th>Meal</th>
         <th>Meal Cost</th>
-        <th>Meal Price</th>
+        <th>Selling Price</th>
         <th>Qty Available</th>
         <th>Qty Sold</th>
     </thead>
@@ -42,4 +42,12 @@
 </form>
 <br>
 <a href="/manager/new_meal"><button type="submit" id="add_new_meal_button">Add New Meal</button></a>
+{% for item in data %}
+<p class="{{item['meal_id']}}"> Meal ID {{ item['meal_id']}}</p>
+<p>Total Forecast Sales {{ item['total_forecast_sales'] }}</p>
+<p>Total Forecast Profit {{ item['total_forecast_profit'] }}</p>
+<p>Total Actual Sales {{ item['total_actual_sales']}}</p>
+<p>Total Actual Profit {{ item['total_actual_profit'] }}</p>
+
+{% endfor %}
 {% endblock %}
