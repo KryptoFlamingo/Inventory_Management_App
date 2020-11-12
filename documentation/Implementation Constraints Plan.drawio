@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T03:41:17.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="yL0DiEnooR1xhaJtwWF7" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T03:42:20.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="ch3P6h4vGr6Gn52IhpCW" version="13.9.6" type="github">
   <diagram id="UNEN4vckEBG-DJC_pmxb" name="Page-1">
     <mxGraphModel dx="1842" dy="1716" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="2JZlqwN-lR3yLo2RLOQG-37" value="&lt;ol&gt;&lt;li&gt;DESIGN FOR ACCESSIBILITY PRINCIPLES NOT CONSIDERED WHICH MAY LIMIT THE MARKET FOR THE PRODUCT AND CREATE DISCRIMINATION AMONGST USERS&lt;/li&gt;&lt;/ol&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="2JZlqwN-lR3yLo2RLOQG-35">
           <mxGeometry x="310" width="538" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="2JZlqwN-lR3yLo2RLOQG-38" value="&lt;a href=&quot;https://www.w3.org/WAI/test-evaluate/preliminary/&quot;&gt;CONSIDER IMPLEMENTING ACCESSIBILITY &lt;br&gt;DESIGN METHODOLOGIES&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="2JZlqwN-lR3yLo2RLOQG-35">
+        <mxCell id="2JZlqwN-lR3yLo2RLOQG-38" value="&lt;a href=&quot;https://www.w3.org/WAI/test-evaluate/preliminary/&quot;&gt;CONSIDER IMPLEMENTING ACCESSIBILITY &lt;br&gt;DESIGN METHODOLOGIES&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://www.w3.org/WAI/tips/&quot;&gt;ALSO LOOK AT THIS TIPS PAGE FOR UPDATE SUGGESTIONS&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="2JZlqwN-lR3yLo2RLOQG-35">
           <mxGeometry x="848" width="423" height="112" as="geometry" />
         </mxCell>
         <mxCell id="2JZlqwN-lR3yLo2RLOQG-39" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2JZlqwN-lR3yLo2RLOQG-14">
