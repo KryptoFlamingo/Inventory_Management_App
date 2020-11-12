@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T01:49:20.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="asE0FobIAT2dGJwNuJna" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T01:52:49.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="_5CjLh6ZDXZCnIB77gCZ" version="13.9.6" type="github">
   <diagram id="jMXvhR3mQ0N-Q9TLe7rR" name="Page-1">
-    <mxGraphModel dx="1637" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="-18" y="193" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-6" value="Manager/Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="228" y="349" width="30" height="60" as="geometry" />
+          <mxGeometry x="238" y="381" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-7" value="Kitchen Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="540" width="30" height="60" as="geometry" />
@@ -74,13 +74,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-30" value="ADD NEW MEALS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="383" y="340" width="120" height="46" as="geometry" />
+          <mxGeometry x="390" y="327" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-31" value="DEACTIVATE MEALS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="371.5" y="410" width="143" height="39" as="geometry" />
+          <mxGeometry x="429" y="421" width="143" height="39" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-32" value="EDIT MEAL VARIABLES (PRICE, COST ETC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="496" y="367" width="155" height="53" as="geometry" />
+          <mxGeometry x="502.5" y="365" width="155" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="jPe0aafQRGD7vMAdwXYg-33" value="VIEW SALES ANALYTICS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517" y="468" width="143" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="jPe0aafQRGD7vMAdwXYg-34" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jPe0aafQRGD7vMAdwXYg-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="303" y="420" as="sourcePoint" />
+            <mxPoint x="529.9999999999964" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPe0aafQRGD7vMAdwXYg-35" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jPe0aafQRGD7vMAdwXYg-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301" y="420" as="sourcePoint" />
+            <mxPoint x="392.99999999999136" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPe0aafQRGD7vMAdwXYg-36" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jPe0aafQRGD7vMAdwXYg-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="303" y="422" as="sourcePoint" />
+            <mxPoint x="505.9999999999959" y="403.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPe0aafQRGD7vMAdwXYg-37" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jPe0aafQRGD7vMAdwXYg-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301" y="420" as="sourcePoint" />
+            <mxPoint x="394.99999999999477" y="452.5000000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
