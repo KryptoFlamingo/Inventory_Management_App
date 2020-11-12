@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T01:00:39.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="6-Uz_bm0bsltoIDJl_zQ" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T01:02:22.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="n4QdLJIulf_R3d05pYJG" version="13.9.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="991" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
           <mxGeometry x="287.5" y="570" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-40" value="&lt;b&gt;ISSUE 4//&lt;/b&gt;&amp;nbsp;page of customisable view analytical infographics req." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="560" y="638" width="170" height="20" as="geometry" />
+          <mxGeometry x="550" y="629" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-41" value="&lt;b&gt;ISSUE 5//&lt;/b&gt;&amp;nbsp;Create logic to restrict sales to stock qty&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="260" y="629" width="170" height="42" as="geometry" />
@@ -212,8 +212,11 @@
         <mxCell id="-RGO8fO24sxqpMGSyuH2-69" value="SELECT MEAL&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="710" y="420" width="75" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-70" target="-RGO8fO24sxqpMGSyuH2-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-70" value="INPUT ORDER QTY" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="720" y="518" width="75" height="32" as="geometry" />
+          <mxGeometry x="710" y="510" width="75" height="32" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-76" target="-RGO8fO24sxqpMGSyuH2-70">
           <mxGeometry relative="1" as="geometry" />
@@ -235,6 +238,15 @@
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-85" value="&lt;b&gt;ISSUE 9//&amp;nbsp; &lt;/b&gt;Add FILTERS for allergens to update the order list to only allow meals excluding the selected allergen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="930" y="490" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-89" target="-RGO8fO24sxqpMGSyuH2-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-89" value="SUBMIT ORDER" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="710" y="570" width="75" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-91" value="CREATE ORDER INSTANCE IN TABLE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="750" y="640" width="100" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
