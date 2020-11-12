@@ -1,10 +1,10 @@
-class Order:
-    def __init__(self, id= None, order_number, order_raised, meals_id, order_qty):
-        self.id = id
-        self.order_number = order_number
-        self.order_raised = order_raised
-        meals_id = meals_id
-        order_qty = order_qty
+# class Order:
+#     def __init__(self, id= None, order_number, order_raised, meals_id, order_qty):
+#         self.id = id
+#         self.order_number = order_number
+#         self.order_raised = order_raised
+#         meals_id = meals_id
+#         order_qty = order_qty
 
 
 # below is the SQL which relates to the class above
