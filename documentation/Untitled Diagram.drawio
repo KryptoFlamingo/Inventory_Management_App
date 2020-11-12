@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T00:18:54.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="KiQLvfIzCc1EEDYYbjwQ" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T00:22:11.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="_6rV4aXaO0058eyOn1a3" version="13.9.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="991" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry x="275" y="330" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-5" value="ADD NEW&amp;nbsp;&lt;br&gt;MENU ITEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="210" y="413" width="90" height="37" as="geometry" />
+          <mxGeometry x="140" y="400" width="90" height="37" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-6" target="-RGO8fO24sxqpMGSyuH2-8">
           <mxGeometry relative="1" as="geometry" />
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-6" value="UPDATE EXISTING MENU ITEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="390" y="373" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-8" target="-RGO8fO24sxqpMGSyuH2-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-8" value="CHANGE STOCK QTY" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="310" y="460" width="70" height="40" as="geometry" />
@@ -114,8 +117,14 @@
         <mxCell id="-RGO8fO24sxqpMGSyuH2-30" value="CALCULATE PROFIT PER UNIT" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="410" y="665" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-RGO8fO24sxqpMGSyuH2-33" value="FEED-IN TO&amp;nbsp;&lt;br&gt;GRAPHICAL &lt;br&gt;ANALYTICS" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="520" y="650" width="115" height="70" as="geometry" />
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-33" value="GRAPHICAL &lt;br&gt;ANALYTICS" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="520" y="660" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-37" value="LOGIC &lt;br&gt;RESTRICTS SALE&lt;br&gt;&amp;nbsp;COUNT" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="570" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-40" value="&lt;b&gt;ISSUE 4//&lt;/b&gt;&amp;nbsp;page of customisable view analytical infographics req." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="638" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
