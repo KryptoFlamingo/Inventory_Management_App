@@ -16,13 +16,13 @@ CREATE TABLE meals (
 );
 
 
-CREATE TABLE orders (
-  id SERIAL PRIMARY KEY,
-  order_number INT,
-  order_raised datetime DEFAULT CURRENT_TIMESTAMP,
-  meals_id INT REFERENCES meals(id),
-  order_qty INT
-);
+-- CREATE TABLE orders (
+--   id SERIAL PRIMARY KEY,
+--   order_number INT,
+--   order_raised datetime DEFAULT CURRENT_TIMESTAMP,
+--   meals_id INT REFERENCES meals(id),
+--   order_qty INT
+-- );
 
 
 CREATE TABLE ingredients (

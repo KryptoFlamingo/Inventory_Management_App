@@ -51,8 +51,8 @@ body > header{
 
 #manager_form > th, td {
     border: 2px solid black;
-    display: inline table;
-    padding: 5px;
+    /* display: inline table; */
+    padding: 15px;
     vertical-align: middle
 }
 
@@ -63,6 +63,7 @@ body > header{
     text-align: center;
     /* align-content: center; */
     margin: 0 auto;
+    vertical-align: middle;
 }
 
 #server_form{
@@ -70,6 +71,7 @@ body > header{
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
 #order_button{
@@ -91,10 +93,6 @@ body > header{
     margin: 0 auto;
 }
 
-.edit_form > div > label > Name {
-    text-align: start;
-}
-
 
 #add_new_meal_button{
     background-color: green;
@@ -103,8 +101,13 @@ body > header{
 }
 
 #new_order_button{
-    background-color: green;
+    background-color:lightseagreen;
     color: white;
-    padding: 8px;
-    margin-top: 20px;
+    padding: 15px;
+    text-decoration-color: lightseagreen;
+}
+
+#new_order_button > a, a:visited{
+    color: white;
+    text-decoration-color: lightseagreen;
 }

@@ -11,12 +11,20 @@ def all_meals():
     meals = meal_repository.select_all()
     return render_template('meals.html', meals = meals)
 
+
 # # NEW
 # # GET '/meals/new_order'
-@meals_blueprint.route("/meals/order_page", methods=['GET'])
-def new_order():
-        meals = meal_repository.select_all()
-        return render_template("meals/order_page.html", all_meals = meals)
+# to action the order button and reduce qty_available by 1 per submit action
+@meals_blueprint.route("/meals/<id>/order", methods=['GET', 'POST'])
+def new_order(id):
+        order = meal_repository.select(id)
+        order.qty_available = order.qty_available - 1
+        order.qty_sold = order.qty_sold + 1
+        meal_repository.update(order)
+        return redirect ('/meals')
+
+
+
 
 
 # # CREATE
