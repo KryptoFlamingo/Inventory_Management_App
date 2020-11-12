@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T00:24:56.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="imgqiWajhO4sc_T1K_2L" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T00:29:32.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="EndD0qwk4dvP34Cs0P7l" version="13.9.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="991" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-8" value="CHANGE STOCK QTY" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="310" y="460" width="70" height="40" as="geometry" />
+          <mxGeometry x="338.75" y="463" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-14" target="-RGO8fO24sxqpMGSyuH2-27">
           <mxGeometry relative="1" as="geometry" />
@@ -132,8 +132,23 @@
         <mxCell id="-RGO8fO24sxqpMGSyuH2-41" value="&lt;b&gt;ISSUE 5//&lt;/b&gt;&amp;nbsp;Create logic to restrict sales to stock qty&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="260" y="629" width="170" height="42" as="geometry" />
         </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-42" target="-RGO8fO24sxqpMGSyuH2-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-42" target="-RGO8fO24sxqpMGSyuH2-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-42" value="ACTIVE OR DEACTIVIATE MEAL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="230" y="413" width="70" height="40" as="geometry" />
+          <mxGeometry x="190" y="450" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-44" value="&lt;b&gt;ISSUE 6//&lt;/b&gt;&amp;nbsp;Enable meal status deactivation and restrict orders&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="408" width="105" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-46" value="STAY IN INVENTORY (CHECKBOX)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-48" value="DISABLE ORDER CAPABILITY WHEN DEACTIVATED" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
