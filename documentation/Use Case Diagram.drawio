@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T02:10:43.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="YpWPzGvKF55A5AXU9wTi" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T02:13:03.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="11qy2M64JzThX5RkJlux" version="13.9.6" type="github">
   <diagram id="jMXvhR3mQ0N-Q9TLe7rR" name="Page-1">
     <mxGraphModel dx="1637" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="-18" y="193" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-6" value="Manager/Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="238" y="381" width="30" height="60" as="geometry" />
+          <mxGeometry x="229" y="356" width="74" height="132" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-7" value="Kitchen Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="570" width="30" height="60" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="888" y="421" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370.5" y="66" width="318" height="696" as="geometry" />
+          <mxGeometry x="347" y="61" width="429.5" height="696" as="geometry" />
         </mxCell>
         <mxCell id="jPe0aafQRGD7vMAdwXYg-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;RESTAURANT APP (POS)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="378" y="96" width="194" height="20" as="geometry" />
@@ -239,6 +239,9 @@
               <mxPoint x="366" y="87" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jPe0aafQRGD7vMAdwXYg-64" value="&lt;span style=&quot;font-size: 15px&quot;&gt;HIGHEST POWER USER&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="82" y="423" width="136" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
