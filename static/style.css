@@ -84,9 +84,17 @@ body > header{
 }
 
 .edit_form {
-    flex-direction: column;
     align-content: flex-start;
+    display: inline;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
 }
+
+.edit_form > div > label > Name {
+    text-align: start;
+}
+
 
 #add_new_meal_button{
     background-color: green;

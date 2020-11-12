@@ -1,10 +1,16 @@
-# considered a new class just to take in the order 
-# from the form which can then be counted in the Meal class as an overall sales tracking tool?
+class Order:
+    def __init__(self, id= None, order_number, order_raised, meals_id, order_qty):
+        self.id = id
+        self.order_number = order_number
+        self.order_raised = order_raised
+        meals_id = meals_id
+        order_qty = order_qty
 
 
-# how to call in the meal.description from the meal class as a built-in variable?
-
-# class Order:
-
-#     def __init__(self, Meal.description, allmeals_qty, id = None):
-#       self.Meal.description = meal_description
+# below is the SQL which relates to the class above
+# CREATE TABLE orders (
+#   id SERIAL PRIMARY KEY,
+#   order_number INT,
+#   order_raised datetime DEFAULT CURRENT_TIMESTAMP,
+#   meals_id INT REFERENCES meals(id),
+#   order_qty INT

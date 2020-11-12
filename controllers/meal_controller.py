@@ -13,10 +13,10 @@ def all_meals():
 
 # # NEW
 # # GET '/meals/new_order'
-@meals_blueprint.route("/meals/new_order", methods=['GET'])
+@meals_blueprint.route("/meals/order_page", methods=['GET'])
 def new_order():
         meals = meal_repository.select_all()
-        return render_template("meals/new_order.html", all_meals = meals)
+        return render_template("meals/order_page.html", all_meals = meals)
 
 
 # # CREATE

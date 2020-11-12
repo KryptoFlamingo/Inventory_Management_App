@@ -3,11 +3,13 @@ from flask import Flask, render_template, request, redirect, Blueprint
 import flask
 from controllers.meal_controller import meals_blueprint
 from controllers.manager_controller import manager_blueprint
+# from controllers.order_controller import order_blueprint
 
 app = Flask(__name__)
 
 app.register_blueprint(meals_blueprint)
 app.register_blueprint(manager_blueprint)
+# app.register_blueprint(order_blueprint)
 
 @app.route('/')
 def home():
