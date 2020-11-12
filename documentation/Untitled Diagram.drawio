@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T00:22:11.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="_6rV4aXaO0058eyOn1a3" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T00:23:27.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="JBRBTZWyiTF0USnFkq0g" version="13.9.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="991" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -125,6 +125,9 @@
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-40" value="&lt;b&gt;ISSUE 4//&lt;/b&gt;&amp;nbsp;page of customisable view analytical infographics req." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="560" y="638" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-41" value="&lt;b&gt;ISSUE 5//&lt;/b&gt;&amp;nbsp;Create logic to restrict sales to stock qty&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="629" width="170" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
