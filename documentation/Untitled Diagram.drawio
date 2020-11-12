@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T01:13:43.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="gaarOqRiI0du8Q2UrX1A" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T01:16:05.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="He-vnfAVutGGzjkIAHsk" version="13.9.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="991" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -28,11 +28,14 @@
         <mxCell id="-RGO8fO24sxqpMGSyuH2-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="AGuOc8GbQPeEdw_ynwzA-47" target="-RGO8fO24sxqpMGSyuH2-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=9;fontColor=#4D4D4D;" edge="1" parent="1" source="AGuOc8GbQPeEdw_ynwzA-47" target="-RGO8fO24sxqpMGSyuH2-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AGuOc8GbQPeEdw_ynwzA-47" value="MENU&amp;nbsp;&lt;br&gt;NAVIGATION TAB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AGuOc8GbQPeEdw_ynwzA-51" value="&lt;b&gt;ISSUE 1&lt;/b&gt;// rename &#39;Menu&#39; to &#39;Server&#39; in code&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="730" y="200" width="140" height="20" as="geometry" />
+          <mxGeometry x="677.5" y="210" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AGuOc8GbQPeEdw_ynwzA-52" value="&lt;b&gt;ISSUE 2&lt;/b&gt;// rename &#39;Manager&#39; to &#39;Admin&#39; in code&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="220" y="210" width="170" height="20" as="geometry" />
@@ -312,6 +315,22 @@
         </mxCell>
         <mxCell id="-RGO8fO24sxqpMGSyuH2-113" value="SECONDARY METHOD TO AVOID SALE OF OUT OF STOCK MEALS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1040" y="320" width="92.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=9;fontColor=#4D4D4D;" edge="1" parent="1" source="-RGO8fO24sxqpMGSyuH2-115" target="-RGO8fO24sxqpMGSyuH2-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="290" />
+              <mxPoint x="870" y="290" />
+              <mxPoint x="870" y="320" />
+              <mxPoint x="800" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-115" value="LOG IN TO SPECIFIC USER ACCOUNT" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="890" y="210" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-RGO8fO24sxqpMGSyuH2-118" value="&lt;b&gt;ISSUE 10&lt;/b&gt;// Out of spec scope but could have page to select server acct to enable tracking server specific sales" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="886.25" y="140" width="213.75" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
