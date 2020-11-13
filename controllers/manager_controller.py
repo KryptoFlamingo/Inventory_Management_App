@@ -71,6 +71,38 @@ def delete_meal(id):
 
 
 
+# ### FUNCTIONS TO CALCULATE FINANCIAL METRICS BASED ON MEALS SQL TABLE CONTENT
+# def financials(meals):
+#     data = {}
+#     running_total_forecast_sales = 0
+#     running_total_forecast_profit = 0
+
+
+#     for meal in meals:
+
+# # # FORECASTS
+# # # TOTAL FORECAST SALES/
+# #####the below to the run of ############ is based on pulling out the sum of all the dishes (total inventory), scrapped for now
+#         full_stock_qty = meal.qty_available + meal.qty_sold
+#         total_forecast_sales = meal.selling_price * full_stock_qty
+#         running_total_forecast_sales = running_total_forecast_sales + total_forecast_sales
+
+# # # TOTAL FORECAST PROFIT/
+#         total_forecast_profit= total_forecast_profit_for_meal - (meal.cost_price * full_stock_qty)
+#         running_total_forecast_profit = running_total_forecast_profit + total_forecast_profit_for_meal
+
+# # # # ACTUALS
+#         total_actual_sales = meal.selling_price * meal.qty_sold
+#         data[meal.id].append(total_actual_sales)
+#         profit_per_meal = meal.selling_price - meal.cost_price
+#         data[meal.id].append(profit_per_meal)
+#         total_actual_profit = profit_per_meal * meal.qty_sold
+#         data[meal.id].append(total_actual_profit)
+#     data["total_forecast_sales"] = running_total_forecast_sales
+#     data["total_forecast_sales"] = running_total_forecast_profit
+#     return data
+
+#######################
 ### FUNCTIONS TO CALCULATE FINANCIAL METRICS BASED ON MEALS SQL TABLE CONTENT
 def financials(meals):
     list = []
@@ -106,5 +138,6 @@ def financials(meals):
     data["total_forecast_sales"] = running_total
     data["total_forecast_sales"] = running_total
     return data
+
 
 
