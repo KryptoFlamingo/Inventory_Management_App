@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T21:25:34.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="HXQhTvyeJfepSNxN0adT" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-13T21:49:02.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="b5pb8t9vN6Dvo94PtUfv" version="13.9.6" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="897" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78961159f06e98e8-17" value="Meal" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="90" y="83" width="160" height="322" as="geometry" />
+          <mxGeometry x="90" y="83" width="160" height="287" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-21" value="+ self:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -35,26 +35,58 @@
           <mxGeometry y="234" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="evMeUIIuOgNlDqpRgxKh-52" value="Manager Controller" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="270" y="83" width="180" height="220" as="geometry">
+          <mxGeometry x="353" y="240" width="180" height="220" as="geometry">
             <mxRectangle x="330" y="60" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="evMeUIIuOgNlDqpRgxKh-63" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-52">
-          <mxGeometry y="26" width="180" height="34" as="geometry" />
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-81" value="" style="group" vertex="1" connectable="0" parent="evMeUIIuOgNlDqpRgxKh-52">
+          <mxGeometry y="26" width="180" height="188" as="geometry" />
         </mxCell>
-        <mxCell id="evMeUIIuOgNlDqpRgxKh-66" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_forecast_cost (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_forecast_profit (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_forecast_sales (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_actual_sales (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_actual_profit (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;highest_selling_meal (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;lowest_selling_meal (Meal)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-52">
-          <mxGeometry y="60" width="180" height="154" as="geometry" />
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-63" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-81">
+          <mxGeometry width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-66" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_forecast_cost (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_forecast_profit (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_forecast_sales (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_actual_sales (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;total_actual_profit (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;highest_selling_meal (Meal)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;lowest_selling_meal (Meal)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-81">
+          <mxGeometry y="34" width="180" height="154" as="geometry" />
         </mxCell>
         <mxCell id="evMeUIIuOgNlDqpRgxKh-77" value="Meal Controller" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="480" y="83" width="190" height="130" as="geometry">
+          <mxGeometry x="348" y="50" width="190" height="130" as="geometry">
             <mxRectangle x="330" y="60" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="evMeUIIuOgNlDqpRgxKh-78" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-77">
           <mxGeometry y="26" width="190" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="evMeUIIuOgNlDqpRgxKh-79" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;Order (Meals)&lt;br&gt;Read (Meals)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-77">
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-79" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;Create_Order (Meals)&lt;br&gt;Read (Meals)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-77">
           <mxGeometry y="60" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-80" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="250" y="258" as="sourcePoint" />
+            <mxPoint x="350" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-82" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="253" y="166" as="sourcePoint" />
+            <mxPoint x="343" y="166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-83" value="Meal Repository" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="600" y="141.5" width="190" height="170" as="geometry">
+            <mxRectangle x="330" y="60" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-84" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-83">
+          <mxGeometry y="26" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-85" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;span&gt;&lt;br&gt;select(id) Meal&lt;br&gt;select_all (Meal)&lt;br&gt;save_meal (Meal)&lt;br&gt;update_meal (Meal)&lt;br&gt;delete(id) (Meal)&lt;br&gt;delete_all (Meal)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evMeUIIuOgNlDqpRgxKh-83">
+          <mxGeometry y="60" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="evMeUIIuOgNlDqpRgxKh-86" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="evMeUIIuOgNlDqpRgxKh-85" target="evMeUIIuOgNlDqpRgxKh-66">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="260" y="268" as="sourcePoint" />
+            <mxPoint x="360" y="268" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
