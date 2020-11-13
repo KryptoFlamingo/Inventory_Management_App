@@ -120,16 +120,23 @@ def financials(meals):
         total_forecast_profit = total_forecast_sales - (meal.cost_price * full_stock_qty)
         # running_total = running_total + total_forecast_profit
 
+
+# # ACTUALS
+# TOTAL ACTUAL SALES
+        total_actual_sales = meal.selling_price * meal.qty_sold
+        total_actual_sales = meal.selling_price * meal.qty_sold
+
         data = {
             'meal_id' : meal.id,
             'total_forecast_sales' : total_forecast_sales,
-            'total_forecast_profit' : total_forecast_profit
+            'total_forecast_profit' : total_forecast_profit,
+            'total_actual_sales' : total_actual_sales
         }
         list.append(data)
     return list
 
-# # ACTUALS
-#         total_actual_sales = meal.selling_price * meal.qty_sold
+
+
 #         data[meal.id].append(total_actual_sales)
 #         profit_per_meal = meal.selling_price - meal.cost_price
 #         data[meal.id].append(profit_per_meal)
