@@ -1,6 +1,6 @@
 # shop_inventory_project
 ** Project Description **
-An INternal Point of Sale system for a restaurant.
+An Internal Point of Sale system for a restaurant.
 Has 3 main user pages:
     one to be used by a server at a table of guests on a handheld system
     one for a manager to manage inventory (add, remove, update meals) and track finances
